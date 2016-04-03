@@ -1,0 +1,6 @@
+* * * * * /usr/bin/php -q  /var/www/html/smartthings/alarm_sensor_status.php {your access token} >>{your log path}/smartthings.log
+* * * * * sleep 10; /usr/bin/php -q  /var/www/html/smartthings/alarm_sensor_status.php {your access token} >>{your log path}/smartthings.log
+* * * * * sleep 20; /usr/bin/php -q  /var/www/html/smartthings/alarm_sensor_status.php {your access token} >>{your log path}/smartthings.log
+* * * * * sleep 30; /usr/bin/php -q  /var/www/html/smartthings/alarm_sensor_status.php {your access token} >>{your log path}/smartthings.log
+* * * * * sleep 40; /usr/bin/php -q  /var/www/html/smartthings/alarm_sensor_status.php {your access token} >>{your log path}/smartthings.log
+* * * * * sleep 50; /usr/bin/php -q  /var/www/html/smartthings/alarm_sensor_status.php {your access token} >>{your log path}/smartthings.log
